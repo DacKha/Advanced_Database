@@ -1,0 +1,5 @@
+DB,Scenario,AvgTime(ms),TPS
+PostgreSQL,Read-heavy,1.6164731979370117,
+SQL Server,Read-heavy,2.69075870513916,
+PostgreSQL,Write-heavy,,447.7850445937665
+SQL Server,Write-heavy,,1032.403400727602
