@@ -4,9 +4,13 @@ Dự án này thực hiện **so sánh hai hệ quản trị cơ sở dữ liệ
 
 Quá trình thực nghiệm bao gồm:
 1. Khởi tạo container cho 2 DBMS bằng Docker.
+   
 2. Tạo schema cơ sở dữ liệu trên từng DBMS.
+   
 3. Sinh dữ liệu thử nghiệm.
+   
 4. Chạy các kịch bản benchmark để đo độ trễ và hiệu năng.
+   
 5.Cấu trúc file:
 ├── docker-compose.yml # File khởi tạo 2 DBMS trên Docker
 ├── schema_postgres.sql # File tạo schema cho PostgreSQL
@@ -14,6 +18,7 @@ Quá trình thực nghiệm bao gồm:
 ├── seed_data.py # Script sinh dữ liệu mẫu cho cả 2 DBMS
 ├── benchmark.py # Script chạy benchmark đo độ trễ
 └── README.md # Tài liệu hướng dẫn
+
 6.Các bước thực hiện:
 -Khời động Docker Containers: docker-compose up -d
 - Tạo 2 schema cho 2 DBMS :
